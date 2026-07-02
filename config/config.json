@@ -1,0 +1,32 @@
+{
+  "relayers": [
+    {
+      "id": "038c64ba-6837-499b-8ec7-d316bc35604b",
+      "name": "Stakepay",
+      "network": "binance-smart-chain",
+      "paused": false,
+      "signer_id": "038c64ba-6837-499b-8ec7-d316bc35604b",
+      "network_type": "evm",
+      "policies": {
+        "min_balance": 100000000000000000,
+        "eip1559_pricing": false
+      }
+    }
+  ],
+  "notifications": [],
+  "signers": [
+    {
+      "id": "038c64ba-6837-499b-8ec7-d316bc35604b",
+      "type": "local",
+      "config": {
+        "path": "config/keys/local-signer.json",
+        "passphrase": {
+          "type": "env",
+          "value": "KEYSTORE_PASSPHRASE"
+        }
+      }
+    }
+  ],
+  "networks": "./config/networks",
+  "plugins": []
+}
